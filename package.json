@@ -4,6 +4,7 @@
   "description": "Chat Service for the Parle App",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,8 +13,11 @@
   "author": "Tony Cookey",
   "license": "ISC",
   "dependencies": {
+    "@socket.io/redis-adapter": "^7.2.0",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "nodemon": "^2.0.19",
+    "redis": "^4.2.0",
     "socket.io": "^4.5.1"
   }
 }
