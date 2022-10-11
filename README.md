@@ -1,3 +1,12 @@
-# Parle Chat Service
+# Parle App
 
-Microservice handling the chat functionality for the Parle app
+Realtime chat app with websockets using Node.js, Express and Socket.io
+
+## Usage
+
+```
+npm install
+node server
+
+Go to localhost:3000
+```
